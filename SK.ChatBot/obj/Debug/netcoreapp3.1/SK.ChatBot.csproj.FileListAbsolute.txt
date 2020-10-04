@@ -33,6 +33,8 @@ z:\Projects\ChatBot\SK.ChatBot\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Opti
 z:\Projects\ChatBot\SK.ChatBot\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 z:\Projects\ChatBot\SK.ChatBot\bin\Debug\netcoreapp3.1\System.Diagnostics.EventLog.dll
 z:\Projects\ChatBot\SK.ChatBot\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.EventLog.dll
+z:\Projects\ChatBot\SK.ChatBot\bin\Debug\netcoreapp3.1\SK.ChatBot.Telegram.dll
+z:\Projects\ChatBot\SK.ChatBot\bin\Debug\netcoreapp3.1\SK.ChatBot.Telegram.pdb
 z:\Projects\ChatBot\SK.ChatBot\obj\Debug\netcoreapp3.1\SK.ChatBot.csprojAssemblyReference.cache
 z:\Projects\ChatBot\SK.ChatBot\obj\Debug\netcoreapp3.1\SK.ChatBot.AssemblyInfoInputs.cache
 z:\Projects\ChatBot\SK.ChatBot\obj\Debug\netcoreapp3.1\SK.ChatBot.AssemblyInfo.cs

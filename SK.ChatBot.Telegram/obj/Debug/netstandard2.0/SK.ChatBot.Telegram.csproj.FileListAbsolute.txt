@@ -1,0 +1,9 @@
+z:\Projects\ChatBot\SK.ChatBot.Telegram\bin\Debug\netstandard2.0\SK.ChatBot.Telegram.deps.json
+z:\Projects\ChatBot\SK.ChatBot.Telegram\bin\Debug\netstandard2.0\SK.ChatBot.Telegram.dll
+z:\Projects\ChatBot\SK.ChatBot.Telegram\bin\Debug\netstandard2.0\SK.ChatBot.Telegram.pdb
+z:\Projects\ChatBot\SK.ChatBot.Telegram\obj\Debug\netstandard2.0\SK.ChatBot.Telegram.csprojAssemblyReference.cache
+z:\Projects\ChatBot\SK.ChatBot.Telegram\obj\Debug\netstandard2.0\SK.ChatBot.Telegram.AssemblyInfoInputs.cache
+z:\Projects\ChatBot\SK.ChatBot.Telegram\obj\Debug\netstandard2.0\SK.ChatBot.Telegram.AssemblyInfo.cs
+z:\Projects\ChatBot\SK.ChatBot.Telegram\obj\Debug\netstandard2.0\SK.ChatBot.Telegram.csproj.CoreCompileInputs.cache
+z:\Projects\ChatBot\SK.ChatBot.Telegram\obj\Debug\netstandard2.0\SK.ChatBot.Telegram.dll
+z:\Projects\ChatBot\SK.ChatBot.Telegram\obj\Debug\netstandard2.0\SK.ChatBot.Telegram.pdb
