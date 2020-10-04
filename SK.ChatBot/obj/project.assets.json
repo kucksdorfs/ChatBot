@@ -410,6 +410,16 @@
             "rid": "win"
           }
         }
+      },
+      "SK.ChatBot.Telegram/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/SK.ChatBot.Telegram.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SK.ChatBot.Telegram.dll": {}
+        }
       }
     }
   },
@@ -1008,11 +1018,17 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "SK.ChatBot.Telegram/1.0.0": {
+      "type": "project",
+      "path": "../SK.ChatBot.Telegram/SK.ChatBot.Telegram.csproj",
+      "msbuildProject": "../SK.ChatBot.Telegram/SK.ChatBot.Telegram.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Microsoft.Extensions.Hosting >= 3.1.8"
+      "Microsoft.Extensions.Hosting >= 3.1.8",
+      "SK.ChatBot.Telegram >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1022,11 +1038,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\Projects\\ChatBot\\SK.ChatBot\\SK.ChatBot.csproj",
+      "projectUniqueName": "z:\\Projects\\ChatBot\\SK.ChatBot\\SK.ChatBot.csproj",
       "projectName": "SK.ChatBot",
-      "projectPath": "Z:\\Projects\\ChatBot\\SK.ChatBot\\SK.ChatBot.csproj",
+      "projectPath": "z:\\Projects\\ChatBot\\SK.ChatBot\\SK.ChatBot.csproj",
       "packagesPath": "C:\\Users\\sk14771\\.nuget\\packages\\",
-      "outputPath": "Z:\\Projects\\ChatBot\\SK.ChatBot\\obj\\",
+      "outputPath": "z:\\Projects\\ChatBot\\SK.ChatBot\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1044,7 +1060,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "z:\\Projects\\ChatBot\\SK.ChatBot.Telegram\\SK.ChatBot.Telegram.csproj": {
+              "projectPath": "z:\\Projects\\ChatBot\\SK.ChatBot.Telegram\\SK.ChatBot.Telegram.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
