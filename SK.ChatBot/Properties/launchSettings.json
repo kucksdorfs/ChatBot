@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "SK.ChatBot": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
