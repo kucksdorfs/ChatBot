@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Configuration;
 
 namespace SK.ChatBot.__Console
 {
@@ -6,7 +7,17 @@ namespace SK.ChatBot.__Console
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            String input = "";
+            do
+            {
+                Console.WriteLine("Enter a valid zip code.");
+
+                input = Console.ReadLine();
+                if (!string.IsNullOrEmpty(input)) {
+                    Console.WriteLine(SK.ChatBot.ParsingFactory.Parse($"!Weather {input}"));
+                }
+            }
+            while (!string.IsNullOrEmpty(input));
         }
     }
 }
