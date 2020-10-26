@@ -7,7 +7,13 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.8" />
+    <PackageReference Include="newtonsoft.json" Version="12.0.3" />
   </ItemGroup>
+
+  <ItemGroup>
+      <EmbeddedResource Include="Weather/OpenWeatherMap/city.list.min.json" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <ProjectReference Include="..\SK.ChatBot.Telegram\SK.ChatBot.Telegram.csproj" />
