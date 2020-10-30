@@ -27,20 +27,22 @@ namespace SK.ChatBot.Weather
 
         public override string GetLocation(string location)
         {
-
-
-            return null;
+            throw new NotImplementedException();
         }
 
-        public override string GetCurrentWeather(string args)
+        public override iResponseObject GetCurrentWeather(string args)
         {
             WebRequest request = WebRequest.Create($"https://api.openweathermap.org/data/2.5/weather?zip={args}&appid={apiKey}&units=imperial");
             var response = request.GetResponse();
             var stream  = new StreamReader(response.GetResponseStream());
             var jsonResponse = stream.ReadToEnd();
             var jobject = JObject.Parse(jsonResponse);
+
+            var temp = jobject.SelectToken("main.temp").Value<int>();
+            var feelsLike = jobject.SelectToken("main.feels_like").Value<int>();
+            var description = jobject.SelectToken("weather.[0].description").Value<string>();
             
-            return jobject.ToString();;
+            return new WeatherResponse("Open Weather Map", args, description, temp, feelsLike);
         }
     }
 }

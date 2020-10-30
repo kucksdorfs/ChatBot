@@ -8,6 +8,6 @@ namespace SK.ChatBot.Weather
     {
         public abstract string GetLocation(string location);
 
-        public abstract string GetCurrentWeather(string locationId);
+        public abstract iResponseObject GetCurrentWeather(string locationId);
     }
 }
