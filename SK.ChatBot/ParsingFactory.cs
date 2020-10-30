@@ -23,7 +23,7 @@ namespace SK.ChatBot
                 }
             }
         }
-        public static String Parse(String message)
+        public static iResponseObject Parse(String message)
         {
             if (!message.StartsWith("!"))
             {

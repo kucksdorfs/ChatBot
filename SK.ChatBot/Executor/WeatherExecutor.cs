@@ -8,7 +8,7 @@ namespace SK.ChatBot.Executor
     {
         private static OpenWeatherMap openWeatherMapObj = new OpenWeatherMap();
 
-        public static string ExecuteWeather(string[] arguments) 
+        public static iResponseObject ExecuteWeather(string[] arguments) 
         {
             if (arguments.Length < 1)
             {

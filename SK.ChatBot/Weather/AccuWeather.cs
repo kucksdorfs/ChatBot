@@ -9,7 +9,7 @@ namespace SK.ChatBot.Weather
             throw new NotImplementedException();
         }
 
-        public override string GetCurrentWeather(string locationId)
+        public override iResponseObject GetCurrentWeather(string locationId)
         {
             throw new NotImplementedException();
         }
